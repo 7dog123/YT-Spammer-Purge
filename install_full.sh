@@ -59,5 +59,5 @@ curl https://codeload.github.com/ThioJoe/YT-Spammer-Purge/tar.gz/refs/tags/v${TA
 tar -xzf yt-spammer.tar.gz
 rm yt-spammer.tar.gz
 cd YT-Spammer-Purge-${TAG}/
-bash -c "pip3 install -r requirements.txt --user"
+bash -c "sudo pip3 install -r requirements.txt --user"
 printf "Dependencies and Program installed!\nNow follow these instructions to get a client_secrets.json file!\nhttps://github.com/ThioJoe/YT-Spammer-Purge/wiki/Instructions:-Obtaining-an-API-Key\n"
